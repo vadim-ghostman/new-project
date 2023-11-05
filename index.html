@@ -20,15 +20,21 @@
             height: 1000px;
             line-height: 1000px;
         }
+
+        .container {
+            height: 1000px;
+        }
         
         .content {
             width: 70%;
             float: right;
+            background-color: orange;
         }
 
         .navbar {
             width: 25%;
             float: left;
+            background-color: forestgreen;
         }
 
         .header, .footer {
@@ -37,6 +43,7 @@
         }
 
         .header {
+            background-color: darkcyan;
             border-radius: 0 0 30px 30px;
         }
 
@@ -47,8 +54,10 @@
 </head>
 <body>
     <header class="block header">Header</header>
-    <div class="block navbar">navbar</div>
-    <div class="block content">content</div>
+    <div class="container">
+        <div class="block navbar">navbar</div>
+        <div class="block content">content</div>
+    </div>
     <footer class="block footer">Footer</footer>
 </body>
 </html>
