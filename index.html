@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My project</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .header {
+            border-radius: 30px;
+            border: 1px solid #000;
+        }
 
+        .header, .footer {
+            height: 100px;
+        }
+
+        .header {
+            border-radius: 0 0 30px 30px;
+        }
+
+        .footer {
+            border-radius: 30px 30px 0 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="block header">Header</header>
+    <div class="block navbar">navbar</div>
+    <div class="block content">content</div>
+    <footer class="block footer">Footer</footer>
+</body>
+</html>
